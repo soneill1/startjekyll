@@ -1,8 +1,3 @@
----	
-layout: page		
-title: About	
-permalink: /about/	
----
 
 About content goes here.
 
@@ -10,3 +5,4 @@ About content goes here.
 * Another list item
 * It worked!
 * Test
+* Test123

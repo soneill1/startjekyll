@@ -25,4 +25,7 @@ collections: # A list of collections the CMS should be able to edit
         label: "Home Page"
         name: "home"
         fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+          - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/about/"}
           - {label: "Body", name: "body", widget: "markdown"}
